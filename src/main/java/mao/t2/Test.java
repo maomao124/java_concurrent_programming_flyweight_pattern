@@ -31,10 +31,10 @@ public class Test
             connection.close();
         }
 
-        List<HashMap<String, Object>> students = JDBCTemplate2.queryForListMap("select * from student");
-        for (HashMap<String, Object> student : students)
-        {
-            System.out.println(student);
-        }
+//        List<HashMap<String, Object>> students = JDBCTemplate2.queryForListMap("select * from student");
+//        for (HashMap<String, Object> student : students)
+//        {
+//            System.out.println(student);
+//        }
     }
 }
